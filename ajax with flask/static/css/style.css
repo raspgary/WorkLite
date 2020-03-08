@@ -1,0 +1,110 @@
+body {
+    overflow-y: hidden;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -6px;
+    top: 311px;
+    opacity: 0.25;
+    overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    width: 409px;
+    height: 144px;
+    left: 50%;
+    text-align:center;
+    transform: translateX(-50%);
+    
+}
+
+#title {
+    position: absolute;
+    width: 1200px;
+    height: 80px;
+    left: 50%;
+    text-align:center;
+    transform: translateX(-50%);
+    top: 25%;
+
+    font-family: Pier Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 72px;
+    text-align: center;
+
+    color: #0741AD;
+}
+
+#description {
+    position: absolute;
+    width: 1066px;
+    height: 130px;
+    left: 50%;
+    text-align:center;
+    transform: translateX(-50%);
+    top: 40%;
+
+    font-family: Pier Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+
+#firm {
+    position: absolute;
+    width: 350px;
+    height: 55px;
+    left: 50%;
+    text-align:center;
+    transform: translateX(-50%);
+    top: 63%;
+    border: 3px solid #004A9D;
+     
+    font-family: "Pier Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 56px;
+    color: #576b82;
+    text-align: center;
+}
+
+
+#login {
+    position: absolute;
+    width: 350px;
+    height: 58px;
+    left: 50%;
+    text-align:center;
+    transform: translateX(-50%);
+    top: 78%;
+     
+     
+    font-family: "Pier Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 56px;
+    color: #FFFFFF;
+    background: #0741AD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+#login:hover {
+  background: #063791;
+  color: #e0e0e0;
+}

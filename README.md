@@ -1,4 +1,4 @@
-# Worklite
+![](static/img/logo.png)
 A web app that allows law firms to input potential clients' car accident data and recieve an expected case value. Using cloud technology and mathematical models, we are able safely and reliably store client data and maximize users' time and profits by tackling the most valuable cases.
 
 ## Inspiration

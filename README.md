@@ -9,5 +9,7 @@ In the law industry, clients and data are either managaed through paper files or
 The web app is built using JavaScript/jQuery, HTML, and CSS. We used a Firebase database for data management. For the backend, we made a Flask API and used Python NumPy library to make a multivariate regression model for calculating the case values.
 
 ## How to run the web app
-Clone the repo.
+Clone the repo and open the repo in a command prompt. Make sure you have the proper dependencies downloaded by running: 'pip install flask numpy pandas'
+
+A username you can use to login is "ez123". You can input the client data using the intake tab.
 

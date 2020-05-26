@@ -69,7 +69,7 @@ input {
 }
 
 #lastInput {
-  display: inline-block;
+  display: inline-block !important;
   /* margin-left: auto;
   margin-right: auto; */
   position: absolute;

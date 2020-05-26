@@ -4,27 +4,36 @@
 
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Login Page</title>
-
-</head>
-<body>
-    <link rel = "stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}"/>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='css/style.css') }}"
+    />
     <script src="{{ url_for('static',filename='js/script.js') }}"></script>
-    <img id="logo" src="{{ url_for('static',filename='img/logo.png') }}">
-    <img id="background" src="{{ url_for('static',filename='img/city_sketch.jpg') }}">
+    <img id="logo" src="{{ url_for('static',filename='img/logo.PNG') }}" />
+    <img
+      id="background"
+      src="{{ url_for('static',filename='img/city_sketch.jpg') }}"
+    />
     <label id="title">All-in-One Legal CRM Software</label>
-    <label id = "description">We leverage <b>machine learning</b> and <b>AI</b> to
-     deliver solutions to your problems.
- Create customized intake forms, communicate with medical providers,
-and automate claims negotiation with WorkLite’s software.</label>
+    <label id="description"
+      >We leverage <b>machine learning</b> and <b>AI</b> to deliver solutions to
+      your problems. Create customized intake forms, communicate with medical
+      providers, and automate claims negotiation with WorkLite’s
+      software.</label
+    >
 
-
-	<input type="text" id="firm" value="Firm Username" onfocus="if(this.value  == 'Firm Username') { this.value = ''; } " onblur="if(this.value == '') { this.value = 'Firm Username'; } ">
+    <input
+      type="text"
+      id="firm"
+      value="Firm Username"
+      onfocus="if(this.value  == 'Firm Username') { this.value = ''; } "
+      onblur="if(this.value == '') { this.value = 'Firm Username'; } "
+    />
     <button id="login">Login</button>
-
-
-
-</body>
+  </body>
 </html>
-

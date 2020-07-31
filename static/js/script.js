@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     var firebaseConfig = {
-        apiKey: "AIzaSyDofv8FSUNrBM7mQ-on5oMQRO3IpGaEKq4",
+        apiKey: "apiKey",
         authDomain: "worklite-1ab69.firebaseapp.com",
         databaseURL: "https://worklite-1ab69.firebaseio.com",
         storageBucket: "worklite-1ab69.appspot.com",
